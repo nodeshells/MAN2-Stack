@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noLib": false,
+    "target": "es6",
+    "allowJs": true,
+    "preserveConstEnums": true,
+    "module": "commonjs",
+    "outDir": "../dist/server",
+    "mapRoot": "../dist/server"
+  }
+}
